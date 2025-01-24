@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="section1">
+      <h1>Random Quotes Generator</h1>
+    </div>
+    <div class="section2">
+      <div class="mainbox">
+        <span class="number">0</span>
+        <div class="content">
+          <p class="para">Train your mind to see the good in every situation</p>
+        </div>
+        <hr>
+        <div class="inputs">
+          <input type="button" value="Generate Quote" onclick="generate()">
+          <input type="button" value="Auto Generate" onclick="auto()">
+          <input type="button" id="stop" value="Stop Generate" onclick="stopAuto()">
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+
+</html>

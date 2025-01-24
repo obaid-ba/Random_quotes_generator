@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.section1 {
+  background-color: rgba(51, 56, 61, 0.63);
+}
+
+.section1 h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.section2 {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 58px);
+  background-color: rgb(57, 62, 70);
+}
+
+.section2 .mainbox {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 30px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgba(145, 147, 151, 0.63);
+  width: 600px;
+}
+
+.section2 .mainbox .number {
+  position: absolute;
+  background-color: rgb(71, 71, 136);
+  border-radius: 18px;
+  padding: 10px;
+  top: -15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+}
+
+.section2 .mainbox .content {
+  position: relative;
+  width: auto;
+  margin-bottom: 90px;
+}
+
+.section2 .mainbox .content::before {
+  content: '"';
+  font-size: 50px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.section2 .mainbox .content::after {
+  content: '"';
+  position: absolute;
+  font-size: 50px;
+  font-weight: 600;
+  color: aliceblue;
+  right: 0;
+}
+
+.section2 .mainbox .content p {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 30px;
+}
+
+
+.section2 .mainbox .inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2 .mainbox .inputs input {
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
