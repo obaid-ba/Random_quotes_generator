@@ -18,9 +18,7 @@ function generate () {
 let test
 
 function stopAuto () {
-  console.log(test)
   clearInterval( test );
-  console.log(test)
   // release our intervalID from the variable
   test = null;
 }
